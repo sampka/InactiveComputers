@@ -12,7 +12,7 @@ $reports = $string | ForEach-Object{
 
 }
 
-$body = "<b>Computers Listed below have been inactive in Active Directory for 1 year</b><br />"
+$body = "<b>Computers Listed below have been inactive in Active Directory for 1 year and not in Disabled OU</b><br />"
 
 ##Assembles and sends completion email with DL information##
 $emailFrom = "sam.kaufman@wcaa.us"
